@@ -1,0 +1,26 @@
+{
+    "extends": "../../../tsconfig.root.json",
+    "references": [
+        {
+            "path": "../phantom/tsconfig.all.json"
+        },
+        {
+            "path": "../qtware/tsconfig.all.json"
+        },
+        {
+            "path": "../slope/tsconfig.all.json"
+        },
+        {
+            "path": "../sollet/tsconfig.all.json"
+        },
+        {
+            "path": "../unsafe-burner/tsconfig.all.json"
+        },
+        {
+            "path": "./tsconfig.cjs.json"
+        },
+        {
+            "path": "./tsconfig.esm.json"
+        }
+    ]
+}

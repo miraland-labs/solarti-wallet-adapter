@@ -1,0 +1,55 @@
+{
+    "name": "@solarti/wallet-adapter-nextjs-starter",
+    "version": "0.8.14-alpha-2",
+    "description": "Derived from and credit to Solana",
+    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "repository": "https://github.com/solana-labs/wallet-adapter",
+    "license": "Apache-2.0",
+    "engines": {
+        "node": ">=16"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "public",
+        "src",
+        ".editorconfig",
+        ".eslintrc.json",
+        ".gitignore",
+        ".prettierignore",
+        ".prettierrc",
+        "LICENSE",
+        "next.config.js",
+        "next-env.d.ts",
+        "package.json",
+        "README.md",
+        "tsconfig.json"
+    ],
+    "scripts": {
+        "clean": "shx rm -rf .next .swc lib",
+        "dev": "NODE_OPTIONS='--inspect' next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@solarti/wallet-adapter-base": "workspace:^",
+        "@solarti/wallet-adapter-react": "workspace:^",
+        "@solarti/wallet-adapter-react-ui": "workspace:^",
+        "@solarti/wallet-adapter-unsafe-burner": "workspace:^",
+        "next": "^12.2.5",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "@types/node-fetch": "^2.6.2",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "eslint": "^8.22.0",
+        "eslint-config-next": "^12.2.5",
+        "prettier": "^2.7.1",
+        "shx": "^0.3.4",
+        "typescript": "~4.7.4"
+    }
+}

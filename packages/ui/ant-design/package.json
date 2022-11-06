@@ -1,0 +1,57 @@
+{
+    "name": "@solarti/wallet-adapter-ant-design",
+    "version": "0.11.16-alpha-2",
+    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "repository": "https://github.com/solana-labs/wallet-adapter",
+    "license": "Apache-2.0",
+    "type": "module",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=16"
+    },
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/esm/index.js",
+    "types": "./lib/types/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./lib/esm/index.js",
+            "require": "./lib/cjs/index.js",
+            "types": "./lib/types/index.d.ts"
+        },
+        "./styles.css": "./styles.css"
+    },
+    "files": [
+        "lib",
+        "src",
+        "LICENSE",
+        "styles.css"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "clean": "shx mkdir -p lib && shx rm -rf lib",
+        "package": "shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
+    },
+    "peerDependencies": {
+        "@ant-design/icons": "*",
+        "@solarti/web3.js": "^0.1.2",
+        "antd": "*",
+        "react": "*",
+        "react-dom": "*"
+    },
+    "dependencies": {
+        "@solarti/wallet-adapter-base": "workspace:^",
+        "@solarti/wallet-adapter-react": "workspace:^"
+    },
+    "devDependencies": {
+        "@ant-design/icons": "^4.7.0",
+        "@solarti/web3.js": "^0.1.2",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "antd": "^4.22.6",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "shx": "^0.3.4"
+    }
+}

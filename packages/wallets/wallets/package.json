@@ -1,0 +1,47 @@
+{
+    "name": "@solarti/wallet-adapter-wallets",
+    "version": "0.19.2-alpha-2",
+    "description": "Solarti wallet adapter wallets derived from and credit to Solana",
+    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "repository": "https://github.com/solana-labs/wallet-adapter",
+    "license": "Apache-2.0",
+    "type": "module",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=16"
+    },
+    "main": "./lib/cjs/index.js",
+    "module": "./lib/esm/index.js",
+    "types": "./lib/types/index.d.ts",
+    "exports": {
+        "require": "./lib/cjs/index.js",
+        "import": "./lib/esm/index.js",
+        "types": "./lib/types/index.d.ts"
+    },
+    "files": [
+        "lib",
+        "src",
+        "LICENSE"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "clean": "shx mkdir -p lib && shx rm -rf lib",
+        "package": "shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
+    },
+    "peerDependencies": {
+        "@solarti/web3.js": "^0.1.2"
+    },
+    "dependencies": {
+        "@solarti/wallet-adapter-phantom": "workspace:^",
+        "@solarti/wallet-adapter-qtware": "workspace:^",
+        "@solarti/wallet-adapter-slope": "workspace:^",
+        "@solarti/wallet-adapter-sollet": "workspace:^",
+        "@solarti/wallet-adapter-unsafe-burner": "workspace:^"
+    },
+    "devDependencies": {
+        "@solarti/web3.js": "^0.1.2",
+        "shx": "^0.3.4"
+    }
+}

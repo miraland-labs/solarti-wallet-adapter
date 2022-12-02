@@ -49,7 +49,7 @@ export class QtwareWalletAdapter extends BaseMessageSignerWalletAdapter {
             : WalletReadyState.Loadable;
 
     // m17 vanilla: WalletAdapterNetwork.Mainnet
-    constructor({ network = WalletAdapterNetwork.MainnetSlrt }: QtwareWalletAdapterConfig = {}) {
+    constructor({ network = WalletAdapterNetwork.MainnetMln }: QtwareWalletAdapterConfig = {}) {
         super();
         this._network = network;
         this._connecting = false;

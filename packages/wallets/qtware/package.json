@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-qtware",
-    "version": "0.0.3-rc.3",
+    "version": "0.0.3-rc.4",
     "description": "Derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "contributors": [
@@ -38,14 +38,14 @@
         "package": "shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "peerDependencies": {
-        "@solarti/web3.js": "^0.1.3"
+        "@solarti/web3.js": "0.1.5-rc.1"
     },
     "dependencies": {
-        "@solarti/wallet-adapter-base": "0.9.19-alpha-3",
-        "qtware-adapter-sdk": "0.0.2-rc.1"
+        "@solarti/wallet-adapter-base": "workspace:^",
+        "qtware-adapter-sdk": "^0.0.2-rc.2"
     },
     "devDependencies": {
-        "@solarti/web3.js": "^0.1.3",
+        "@solarti/web3.js": "^0.1.5-rc.1",
         "shx": "^0.3.4"
     }
 }

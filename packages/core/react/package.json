@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-react",
-    "version": "0.15.21-alpha-2",
+    "version": "0.15.21-rc.3",
     "description": "Derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -32,7 +32,7 @@
         "test": "jest"
     },
     "peerDependencies": {
-        "@solarti/web3.js": "^0.1.2",
+        "@solarti/web3.js": "^0.1.5-rc.1",
         "react": "*",
         "react-dom": "*"
     },
@@ -40,7 +40,7 @@
         "@solarti/wallet-adapter-base": "workspace:^"
     },
     "devDependencies": {
-        "@solarti/web3.js": "^0.1.2",
+        "@solarti/web3.js": "^0.1.5-rc.1",
         "@types/jest": "^28.1.6",
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",

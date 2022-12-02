@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-wallets",
-    "version": "0.19.2-alpha-2",
+    "version": "0.19.2-rc.3",
     "description": "Solarti wallet adapter wallets derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -31,7 +31,7 @@
         "package": "shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "peerDependencies": {
-        "@solarti/web3.js": "^0.1.2"
+        "@solarti/web3.js": "^0.1.5-rc.1"
     },
     "dependencies": {
         "@solarti/wallet-adapter-phantom": "workspace:^",
@@ -41,7 +41,7 @@
         "@solarti/wallet-adapter-unsafe-burner": "workspace:^"
     },
     "devDependencies": {
-        "@solarti/web3.js": "^0.1.2",
+        "@solarti/web3.js": "^0.1.5-rc.1",
         "shx": "^0.3.4"
     }
 }

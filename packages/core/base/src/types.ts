@@ -11,6 +11,15 @@ export enum WalletAdapterNetwork {
     MainnetSlrt = 'mainnet-slrt',
     TestnetSlrt = 'testnet-slrt',
     DevnetSlrt = 'devnet-slrt',
+    MainnetQth = 'mainnet-qth',
+    TestnetQth = 'testnet-qth',
+    DevnetQth = 'devnet-qth',
+    MainnetMira = 'mainnet-mira',
+    TestnetMira = 'testnet-mira',
+    DevnetMira = 'devnet-mira',
+    MainnetMln = 'mainnet-mln',
+    TestnetMln = 'testnet-mln',
+    DevnetMln = 'devnet-mln',
 }
 
 export type SupportedTransactionVersions = ReadonlySet<TransactionVersion> | null | undefined;

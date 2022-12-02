@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-create-react-app-starter",
-    "version": "0.1.12-alpha-2",
+    "version": "0.1.12-rc.3",
     "description": "Derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -34,7 +34,7 @@
         "@solarti/wallet-adapter-react-ui": "workspace:^",
         "@solarti/wallet-adapter-unsafe-burner": "workspace:^",
         "@solarti/wallet-adapter-qtware": "workspace:^",
-        "@solarti/web3.js": "^0.1.2",
+        "@solarti/web3.js": "^0.1.5-rc.1",
         "crypto-browserify": "^3.12.0",
         "react": "^18.0.0",
         "react-app-rewired": "^2.2.1",

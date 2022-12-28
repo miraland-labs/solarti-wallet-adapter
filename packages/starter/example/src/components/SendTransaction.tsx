@@ -21,7 +21,7 @@ export const SendTransaction: FC = () => {
         try {
             const transaction = new Transaction().add(
                 new TransactionInstruction({
-                    data: Buffer.from('Hello, from the Solana Wallet Adapter example app!'),
+                    data: Buffer.from('Hello, from the Miraland Wallet Adapter example app!'),
                     keys: [],
                     programId: new PublicKey('MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr'),
                 })

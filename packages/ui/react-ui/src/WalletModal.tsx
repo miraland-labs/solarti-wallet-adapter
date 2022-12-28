@@ -45,8 +45,8 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
         return installedWallets.length
             ? // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
               installedWallets[0]!
-            : wallets.find((wallet: { adapter: { name: WalletName } }) => wallet.adapter.name === 'Torus') ||
-                  wallets.find((wallet: { adapter: { name: WalletName } }) => wallet.adapter.name === 'Phantom') ||
+            : wallets.find((wallet: { adapter: { name: WalletName } }) => wallet.adapter.name === 'Qtware') ||
+                  wallets.find((wallet: { adapter: { name: WalletName } }) => wallet.adapter.name === 'Solarti') ||
                   wallets.find((wallet: { readyState: any }) => wallet.readyState === WalletReadyState.Loadable) ||
                   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
                   otherWallets[0]!;
@@ -150,7 +150,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         </button>
                         {installedWallets.length ? (
                             <>
-                                <h1 className="wallet-adapter-modal-title">Connect a wallet on Solana to continue</h1>
+                                <h1 className="wallet-adapter-modal-title">Connect a wallet on Miraland to continue</h1>
                                 <ul className="wallet-adapter-modal-list">
                                     {installedWallets.map((wallet) => (
                                         <WalletListItem
@@ -198,7 +198,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         ) : (
                             <>
                                 <h1 className="wallet-adapter-modal-title">
-                                    You'll need a wallet on Solana to continue
+                                    You'll need a wallet on Miraland to continue
                                 </h1>
                                 <div className="wallet-adapter-modal-middle">
                                     <WalletSVG />

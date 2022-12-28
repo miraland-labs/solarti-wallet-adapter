@@ -50,7 +50,7 @@ export const SendV0Transaction: FC = () => {
                 payerKey: publicKey,
                 instructions: [
                     {
-                        data: Buffer.from('Hello, from the Solana Wallet Adapter example app!'),
+                        data: Buffer.from('Hello, from the Miraland Wallet Adapter example app!'),
                         keys: lookupTable.state.addresses.map((pubkey, index) => ({
                             pubkey,
                             isWritable: index % 2 == 0,

@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-example",
-    "version": "0.18.15-rc.3",
+    "version": "0.18.15-rc.4",
     "description": "Derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",

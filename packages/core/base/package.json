@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-base",
-    "version": "0.9.19-rc-4",
+    "version": "0.9.19",
     "description": "Solarti wallet adapter base derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
@@ -31,13 +31,13 @@
         "package": "shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "peerDependencies": {
-        "@solarti/web3.js": "^0.1.5-rc.1"
+        "@solarti/web3.js": "^1.73.2"
     },
     "dependencies": {
         "eventemitter3": "^4.0.0"
     },
     "devDependencies": {
-        "@solarti/web3.js": "^0.1.5-rc.1",
+        "@solarti/web3.js": "^1.73.2",
         "@types/node-fetch": "^2.6.2",
         "shx": "^0.3.4"
     }

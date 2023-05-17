@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-material-ui",
-    "version": "0.16.17-rc.3",
+    "version": "0.16.17",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-adapter",
     "license": "Apache-2.0",
@@ -32,7 +32,7 @@
     "peerDependencies": {
         "@mui/icons-material": "*",
         "@mui/material": "*",
-        "@solarti/web3.js": "^0.1.5-rc.1",
+        "@solarti/web3.js": "^1.73.2",
         "react": "*",
         "react-dom": "*"
     },
@@ -45,7 +45,7 @@
         "@emotion/styled": "^11.10.0",
         "@mui/icons-material": "^5.8.4",
         "@mui/material": "^5.10.1",
-        "@solarti/web3.js": "^0.1.5-rc.1",
+        "@solarti/web3.js": "^1.73.2",
         "@types/react": "^18.0.0",
         "@types/react-dom": "^18.0.0",
         "react": "^18.0.0",

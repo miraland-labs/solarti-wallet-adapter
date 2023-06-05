@@ -150,7 +150,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         </button>
                         {installedWallets.length ? (
                             <>
-                                <h1 className="wallet-adapter-modal-title">Connect a wallet on Miraland to continue</h1>
+                                <h1 className="wallet-adapter-modal-title">连接米兰链钱包地址才能继续\nConnect a wallet on Miraland to continue</h1>
                                 <ul className="wallet-adapter-modal-list">
                                     {installedWallets.map((wallet) => (
                                         <WalletListItem
@@ -198,7 +198,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         ) : (
                             <>
                                 <h1 className="wallet-adapter-modal-title">
-                                    You'll need a wallet on Miraland to continue
+                                    亲，你需要一个米兰链钱包地址才能继续\nYou'll need a wallet on Miraland to continue
                                 </h1>
                                 <div className="wallet-adapter-modal-middle">
                                     <WalletSVG />
@@ -207,7 +207,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                                         className="wallet-adapter-modal-middle-button"
                                         onClick={(event) => handleWalletClick(event, getStartedWallet.adapter.name)}
                                     >
-                                        Get started
+                                        开始 Get started
                                     </button>
                                 </div>
                                 {otherWallets.length ? (
@@ -217,7 +217,12 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                                             onClick={handleCollapseClick}
                                             tabIndex={0}
                                         >
-                                            <span>{expanded ? 'Hide ' : 'Already have a wallet? View '}options</span>
+                                            <span>
+                                                {expanded
+                                                    ? '隐藏选项 Hide '
+                                                    : '已有钱包？查看选项 Already have a wallet? View '}
+                                                options
+                                            </span>
                                             <svg
                                                 width="13"
                                                 height="7"

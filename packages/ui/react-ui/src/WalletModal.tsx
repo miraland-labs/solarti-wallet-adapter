@@ -150,7 +150,11 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         </button>
                         {installedWallets.length ? (
                             <>
-                                <h1 className="wallet-adapter-modal-title">连接米兰链钱包地址才能继续\nConnect a wallet on Miraland to continue</h1>
+                                <h1 className="wallet-adapter-modal-title">
+                                    连接米兰链钱包地址才能继续
+                                    <br />
+                                    Connect a wallet on Miraland to continue
+                                </h1>
                                 <ul className="wallet-adapter-modal-list">
                                     {installedWallets.map((wallet) => (
                                         <WalletListItem
@@ -198,7 +202,9 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         ) : (
                             <>
                                 <h1 className="wallet-adapter-modal-title">
-                                    亲，你需要一个米兰链钱包地址才能继续\nYou'll need a wallet on Miraland to continue
+                                    亲，你需要一个米兰链钱包地址才能继续
+                                    <br />
+                                    You'll need a wallet on Miraland to continue
                                 </h1>
                                 <div className="wallet-adapter-modal-middle">
                                     <WalletSVG />

@@ -4,7 +4,7 @@ import type { ButtonProps } from './Button.js';
 import { Button } from './Button.js';
 import { useWalletModal } from './useWalletModal.js';
 
-export const WalletModalButton: FC<ButtonProps> = ({ children = '选择钱包 Select Wallet', onClick, ...props }) => {
+export const WalletModalButton: FC<ButtonProps> = ({ children = 'Select Wallet', onClick, ...props }) => {
     const { visible, setVisible } = useWalletModal();
 
     const handleClick = useCallback(

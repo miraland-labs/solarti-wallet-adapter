@@ -84,13 +84,13 @@ export const WalletMultiButton: FC<ButtonProps> = ({ children, ...props }) => {
                 role="menu"
             >
                 <li onClick={copyAddress} className="wallet-adapter-dropdown-list-item" role="menuitem">
-                    {copied ? '已拷贝 Copied' : '拷贝地址 Copy address'}
+                    {copied ? 'Copied' : 'Copy address'}
                 </li>
                 <li onClick={openModal} className="wallet-adapter-dropdown-list-item" role="menuitem">
-                    变更钱包 Change wallet
+                    Change wallet
                 </li>
                 <li onClick={disconnect} className="wallet-adapter-dropdown-list-item" role="menuitem">
-                    断开连接 Disconnect
+                    Disconnect
                 </li>
             </ul>
         </div>

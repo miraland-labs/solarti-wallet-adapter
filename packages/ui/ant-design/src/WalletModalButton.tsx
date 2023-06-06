@@ -5,7 +5,7 @@ import React, { useCallback } from 'react';
 import { useWalletModal } from './useWalletModal.js';
 
 export const WalletModalButton: FC<ButtonProps> = ({
-    children = '选择钱包 Select Wallet',
+    children = 'Select Wallet',
     type = 'primary',
     size = 'large',
     htmlType = 'button',

@@ -151,7 +151,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         {installedWallets.length ? (
                             <>
                                 <h1 className="wallet-adapter-modal-title">
-                                    连接米兰链钱包地址才能继续
+                                    连接米兰链多宝箱地址才能继续
                                     <br />
                                     Connect a wallet on Miraland to continue
                                 </h1>
@@ -202,7 +202,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                         ) : (
                             <>
                                 <h1 className="wallet-adapter-modal-title">
-                                    亲，你需要一个米兰链钱包地址才能继续
+                                    亲，你需要一个米兰链多宝箱地址才能继续
                                     <br />
                                     You'll need a wallet on Miraland to continue
                                 </h1>
@@ -226,7 +226,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                                             <span>
                                                 {expanded
                                                     ? '隐藏选项 Hide '
-                                                    : '已有钱包？查看选项 Already have a wallet? View '}
+                                                    : '已有多宝箱？查看选项 Already have a wallet? View '}
                                                 options
                                             </span>
                                             <svg

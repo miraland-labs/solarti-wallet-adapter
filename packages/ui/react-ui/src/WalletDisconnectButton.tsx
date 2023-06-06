@@ -19,9 +19,9 @@ export const WalletDisconnectButton: FC<ButtonProps> = ({ children, disabled, on
 
     const content = useMemo(() => {
         if (children) return children;
-        if (disconnecting) return 'Disconnecting ...';
-        if (wallet) return 'Disconnect';
-        return 'Disconnect Wallet';
+        if (disconnecting) return '正在断开连接 Disconnecting ...';
+        if (wallet) return '断开连接 Disconnect';
+        return '断开多宝箱连接 Disconnect Wallet';
     }, [children, disconnecting, wallet]);
 
     return (

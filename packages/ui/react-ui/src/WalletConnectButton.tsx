@@ -19,10 +19,10 @@ export const WalletConnectButton: FC<ButtonProps> = ({ children, disabled, onCli
 
     const content = useMemo(() => {
         if (children) return children;
-        if (connecting) return 'Connecting ...';
-        if (connected) return 'Connected';
-        if (wallet) return 'Connect';
-        return 'Connect Wallet';
+        if (connecting) return '连接中 Connecting ...';
+        if (connected) return '已连接 Connected';
+        if (wallet) return '连接 Connect';
+        return '连接多宝箱 Connect Wallet';
     }, [children, connecting, connected, wallet]);
 
     return (

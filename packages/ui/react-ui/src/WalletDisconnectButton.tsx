@@ -21,7 +21,7 @@ export const WalletDisconnectButton: FC<ButtonProps> = ({ children, disabled, on
         if (children) return children;
         if (disconnecting) return '正在断开连接 Disconnecting ...';
         if (wallet) return '断开连接 Disconnect';
-        return '断开多宝箱连接 Disconnect Wallet';
+        return '断开多宝箱连接 Disconnect T-ware';
     }, [children, disconnecting, wallet]);
 
     return (

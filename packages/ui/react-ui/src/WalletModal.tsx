@@ -153,7 +153,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                                 <h1 className="wallet-adapter-modal-title">
                                     连接米兰链多宝箱地址才能继续
                                     <br />
-                                    Connect a wallet on Miraland to continue
+                                    Connect a treasure ware on Miraland to continue
                                 </h1>
                                 <ul className="wallet-adapter-modal-list">
                                     {installedWallets.map((wallet) => (
@@ -204,7 +204,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                                 <h1 className="wallet-adapter-modal-title">
                                     亲，你需要一个米兰链多宝箱地址才能继续
                                     <br />
-                                    You'll need a wallet on Miraland to continue
+                                    You'll need a treasure ware on Miraland to continue
                                 </h1>
                                 <div className="wallet-adapter-modal-middle">
                                     <WalletSVG />
@@ -226,7 +226,7 @@ export const WalletModal: FC<WalletModalProps> = ({ className = '', container = 
                                             <span>
                                                 {expanded
                                                     ? '隐藏选项 Hide '
-                                                    : '已有多宝箱？查看选项 Already have a wallet? View '}
+                                                    : '已有多宝箱？查看选项 Already have a T-ware? View '}
                                                 options
                                             </span>
                                             <svg

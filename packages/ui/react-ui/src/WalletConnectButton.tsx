@@ -22,7 +22,7 @@ export const WalletConnectButton: FC<ButtonProps> = ({ children, disabled, onCli
         if (connecting) return '连接中 Connecting ...';
         if (connected) return '已连接 Connected';
         if (wallet) return '连接 Connect';
-        return '连接多宝箱 Connect Wallet';
+        return '连接多宝箱 Connect T-ware';
     }, [children, connecting, connected, wallet]);
 
     return (

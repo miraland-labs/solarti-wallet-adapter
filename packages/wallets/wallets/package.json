@@ -3,7 +3,7 @@
     "version": "0.19.2",
     "description": "Solarti wallet adapter wallets derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
-    "repository": "https://github.com/solana-labs/wallet-adapter",
+    "repository": "https://github.com/miraland-labs/solarti-wallet-adapter",
     "license": "Apache-2.0",
     "type": "module",
     "sideEffects": false,

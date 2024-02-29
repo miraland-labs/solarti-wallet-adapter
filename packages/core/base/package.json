@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-base",
-    "version": "0.9.19",
+    "version": "0.9.20",
     "description": "Solarti wallet adapter base derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/miraland-labs/solarti-wallet-adapter",

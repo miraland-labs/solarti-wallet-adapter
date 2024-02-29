@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-nextjs-starter",
-    "version": "0.8.14",
+    "version": "0.8.15",
     "description": "Derived from and credit to Solana",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/miraland-labs/solarti-wallet-adapter",

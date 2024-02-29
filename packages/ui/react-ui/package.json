@@ -1,6 +1,6 @@
 {
     "name": "@solarti/wallet-adapter-react-ui",
-    "version": "0.9.26",
+    "version": "0.9.27",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/miraland-labs/solarti-wallet-adapter",
     "license": "Apache-2.0",
